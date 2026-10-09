@@ -880,7 +880,7 @@
 				else
 					return FALSE
 
-			if(istype(P.ammo, /datum/ammo/rocket))
+			if(istype(P.ammo, /datum/ammo/rocket)) //if shoot to kill is disabled, hAI RPG users should miss shots on human mobs
 				var/datum/human_ai_brain/brain = shooter_human.get_ai_brain()
 				if(!brain.shoot_to_kill)
 					return FALSE
