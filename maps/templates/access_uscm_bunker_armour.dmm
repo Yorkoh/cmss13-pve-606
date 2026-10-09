@@ -994,8 +994,8 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
 "IB" = (
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "ID" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 1
