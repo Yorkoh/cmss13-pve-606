@@ -124,7 +124,7 @@ OverrideTimelock(/datum/job/marine/leader, list(
 /obj/effect/landmark/start/marine/leader/armour
 	name = JOB_SQUAD_ARMOUR_LEADER
 	squad = SQUAD_ARMOUR
-	job = /datum/job/command/bridge/ai/armour
+	job = /datum/job/marine/leader/ai/armour
 
 /datum/job/marine/leader/ai/upp/armour
 	title = JOB_SQUAD_ARMOUR_LEADER_UPP
@@ -137,7 +137,7 @@ OverrideTimelock(/datum/job/marine/leader, list(
 /obj/effect/landmark/start/marine/leader/upp/armour
 	name = JOB_SQUAD_ARMOUR_LEADER_UPP
 	squad = SQUAD_ARMOUR_UPP
-	job = /datum/job/command/bridge/ai/upp/armour
+	job = /datum/job/marine/leader/ai/upp/armour
 
 //-- RMC Platoon --//
 // Second-in-command under LT, handles the mortar calls //
